@@ -1,4 +1,5 @@
-# Q. Write down all the operators present in python covered in class. And A brief description about them.
+# Q. Write down all the operators present in python covered in class. And A brief description 
+about them.
 
 Ans. 
 ## Arithmetic Operators  
