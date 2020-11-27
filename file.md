@@ -4,12 +4,14 @@ A python based application which works on CLI to function like the coventional s
 ## Contents
 * Snake and Ladder Application
 * Contents
-* Technologies
+* Technologies Required
 * About Code
 * How to Use
 * Methods Defined
+* Program Description
+* Bibliography
 
-## Technologies
+## Technologies Required
 Project is created using:
 * Python: 3.8.6
 * Flake8 (for liniting)
@@ -31,10 +33,11 @@ The application has been coded in python language using OOPS principle having ob
 * move_calculator()
 * check_win()
 
-## Working Details
+## Program Description
 * The program stores the position of ladders and snakes in a dictionary and the player names and their position in game in a nested list.
-* When the dice is rolled, the dice value is added to the old position of player.
-* The new position is checked in the snakes and ladders dictionaries; and if found then the player's position is again updated.
+* When the dice is rolled, the dice value is obtained from roll_a_dice() function and is added to the old position of player.
+* This new position is checked in the user provided snakes and ladders dictionaries by the funtions check_ladder() and check_snake(); and if found then the player's position is again updated according to the data in the dictionaries.
+* The program sleeps for 1 second before giving the next update on terminal for a smooth user experience.
 * The game is played until one player's postion becomes equal to 100, thereby declaring him/her the winner.
 
 ## Bibliography
