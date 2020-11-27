@@ -1,4 +1,4 @@
-# Snakes And Ladder Application
+# Snake And Ladder Application
 A python based application which works on CLI to function like the coventional snake and ladder game.
   
 ## Contents
